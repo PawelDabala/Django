@@ -11,6 +11,10 @@ class Car(models.Model):
     def __repr__(self):
         return f'brand: {self.brand}, model: {self.model}, segment: {self.segment}'
 
+    def __str__(self):
+        return f'{self.brand}, {self.model}'
+
+
 
 class Client(models.Model):
     name = models.CharField(max_length=100)
@@ -19,12 +23,18 @@ class Client(models.Model):
     def __repr__(self):
         return f'name: {self.name}, last name: {self.last_name} '
 
+    def __str__(self):
+        return f'{self.name}, {self.last_name}'
+
 
 class Rent(models.Model):
     car = models.ForeignKey(Car, on_delete=models.CASCADE)
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     data_start = models.DateField()
     date_end = models.DateField()
+
+    def __str__(self):
+        return f'{self.car}, {self.client}, {self.data_start}, {self.date_end}'
 
 
 
