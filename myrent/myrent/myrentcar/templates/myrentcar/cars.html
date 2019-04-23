@@ -1,0 +1,11 @@
+{% if cars %}
+    <ul>
+        {% for car in cars %}
+            <li>
+                <a href="{% url 'myrentcar:car' car.id %}"> {{ car.model }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p> No cars are available. </p>
+{% endif %}
