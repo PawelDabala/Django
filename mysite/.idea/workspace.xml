@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bb9f7c97-7e6c-4a3e-b8bd-81eb4ae8dacb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../myrent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

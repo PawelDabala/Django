@@ -1,1 +1,6 @@
-{{ car }}
+<ul>
+    <li> Brand: {{ car.brand }}</li>
+    <li> Model: {{ car.model }}</li>
+    <li> Segment: {{ car.segment }}</li>
+    <li> Liczba wypożyczeń: {{ car.rents.count }}</li>
+</ul>

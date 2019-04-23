@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77e92b7-9734-4b92-a1ef-5f35b7e807d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myrent/myrentcar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myrent/myrentcar/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/polls/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,26 +21,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myrent/myrentcar/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+                <state relative-caret-position="196">
+                  <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
                   <folding>
-                    <element signature="e#0#35#0" expanded="true" />
+                    <element signature="e#0#54#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html">
+            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/clients.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
                   <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
@@ -50,24 +40,30 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/urls.py">
+            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/client.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="51">
+                  <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myrent/myrent/urls.py">
+            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
                   <folding>
-                    <element signature="e#630#662#0" expanded="true" />
+                    <element signature="e#0#28#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -77,14 +73,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myrent/myrentcar/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -113,10 +118,12 @@
         <option value="$PROJECT_DIR$/myrent/myrent/urls.py" />
         <option value="$PROJECT_DIR$/myrent/myrentcar/admin.py" />
         <option value="$PROJECT_DIR$/myrent/myrentcar/models.py" />
-        <option value="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html" />
-        <option value="$PROJECT_DIR$/myrent/myrentcar/urls.py" />
-        <option value="$PROJECT_DIR$/myrent/myrentcar/views.py" />
         <option value="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html" />
+        <option value="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html" />
+        <option value="$PROJECT_DIR$/myrent/myrentcar/views.py" />
+        <option value="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/client.html" />
+        <option value="$PROJECT_DIR$/myrent/myrentcar/urls.py" />
+        <option value="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/clients.html" />
       </list>
     </option>
   </component>
@@ -318,20 +325,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myrent/myrent/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
@@ -340,25 +337,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/views.py">
+    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -366,6 +353,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/clients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
