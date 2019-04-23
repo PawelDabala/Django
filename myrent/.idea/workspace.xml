@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77e92b7-9734-4b92-a1ef-5f35b7e807d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/templates/myrentcar/cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myrent/myrentcar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myrent/myrentcar/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myrent/myrentcar/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/polls/templates/polls/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/polls/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -258,6 +256,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25763962" />
