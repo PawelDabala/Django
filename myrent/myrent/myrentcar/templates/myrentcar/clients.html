@@ -1,18 +1,16 @@
-
-
 <form action="{% url 'myrentcar:client_add' %}" method="get">
     {% csrf_token %}
     {% if clients %}
     <ul>
         {% for client in clients %}
-            <li>
-                <a href="{% url 'myrentcar:client' client.id %}"> {{ client.name }} {{ client.last_name }} </a>
-            </li>
+        <li>
+            <a href="{% url 'myrentcar:client' client.id %}"> {{ client.name }} {{ client.last_name }} </a>
+        </li>
         {% endfor %}
     </ul>
 
     {% else %}
-        <p>No clients are available.</p>
+    <p>No clients are available.</p>
     {% endif %}
     <input type="submit" value="Dodaj nowego klienta">
 </form>

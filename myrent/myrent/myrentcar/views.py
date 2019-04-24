@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
+from django.views import generic
 from django.views.decorators.csrf import csrf_exempt
 from .models import Car, Client
 
@@ -10,15 +11,25 @@ from .models import Car, Client
 # def index(request):
 #     return HttpResponse("Hell, world, You're at the rent car index")
 
+class CarsView(generic.ListView):
+    template_name = 'myrentcar/cars.html'
+    context_object_name = 'cars'
 
-def cars(request):
-    cars = Car.objects.all()
-    return render(request, 'myrentcar/cars.html', {'cars': cars})
+    def get_queryset(self):
+        return Car.objects.all()
+
+# def cars(request):
+#     cars = Car.objects.all()
+#     return render(request, 'myrentcar/cars.html', {'cars': cars})
 
 
-def car(request, car_id):
-    car = get_object_or_404(Car, pk=car_id)
-    return render(request, 'myrentcar/car.html', {'car': car})
+class CarView(generic.DetailView):
+    model = Car
+    template_name = 'myrentcar/car.html'
+
+# def car(request, car_id):
+#     car = get_object_or_404(Car, pk=car_id)
+#     return render(request, 'myrentcar/car.html', {'car': car})
 
 def clients(request):
     clients = Client.objects.all()
