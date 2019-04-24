@@ -1,0 +1,12 @@
+<p><strong> Add new client:</strong></p>
+
+<form action="#" method="post">
+    {% csrf_token %}
+    <label for="client_name"> name: </label>
+    <input id="your_name" type="text" name="name">
+    <label for="client_last_name"> last name: </label>
+    <input id="client_last_name" type="text" name="last_name">
+
+    <input type="submit" value="Add new">
+
+</form>

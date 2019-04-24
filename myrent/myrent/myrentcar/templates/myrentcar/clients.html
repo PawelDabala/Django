@@ -1,5 +1,8 @@
-{% if clients %}
 
+
+<form action="{% url 'myrentcar:client_add' %}" method="get">
+    {% csrf_token %}
+    {% if clients %}
     <ul>
         {% for client in clients %}
             <li>
@@ -7,7 +10,9 @@
             </li>
         {% endfor %}
     </ul>
+
+    {% else %}
+        <p>No clients are available.</p>
+    {% endif %}
     <input type="submit" value="Dodaj nowego klienta">
-{% else %}
-    <p>No clients are available.</p>
-{% endif %}
+</form>

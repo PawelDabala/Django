@@ -11,5 +11,7 @@ urlpatterns = [
     #ex: /clients/
     path('clients/', views.clients, name='clients'),
     #ex: /client/3/
-    path('clients/<int:client_id>', views.client, name='client')
+    path('clients/<int:client_id>', views.client, name='client'),
+    #ex: /clients/add/
+    path('clients/add', views.client_add, name='client_add')
 ]

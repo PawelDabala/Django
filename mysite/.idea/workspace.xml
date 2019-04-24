@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bb9f7c97-7e6c-4a3e-b8bd-81eb4ae8dacb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../myrent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/car.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/templates/myrentcar/clients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myrent/myrent/myrentcar/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myrent/myrent/myrentcar/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +29,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/polls/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="49" column="76" lean-forward="true" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+                <state relative-caret-position="986">
+                  <caret line="58" column="82" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="82" />
                   <folding>
                     <element signature="e#0#54#0" expanded="true" />
                   </folding>
@@ -41,7 +41,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="289">
@@ -111,11 +111,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1911" />
+    <option name="y" value="36" />
+    <option name="width" value="1890" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,10 +191,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="1911" y="36" width="1890" height="1044" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.145469" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098812096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -205,7 +205,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20069204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1909989" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -328,6 +328,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -337,18 +344,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="49" column="76" lean-forward="true" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+        <state relative-caret-position="986">
+          <caret line="58" column="82" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="82" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
